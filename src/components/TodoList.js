@@ -42,7 +42,7 @@ function TodoList() {
 
   return (
     <>
-      <h1 data-testid="title">not the correct title</h1>
+      <h1 data-testid="title">Ding ding</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo
         todos={todos}

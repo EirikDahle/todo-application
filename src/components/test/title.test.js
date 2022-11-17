@@ -6,5 +6,5 @@ test("header displays correct", () => {
     render(<App />)
     const title = screen.getByTestId("title");
     expect(title).toBeInTheDocument();
-    expect(title).toHaveTextContent("Post-it todos")
+    expect(title).toHaveTextContent("Ding ding")
 });
